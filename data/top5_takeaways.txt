@@ -1,24 +1,24 @@
-1. Data Exfiltration
-- What this means: Data exfiltration occurs when sensitive or confidential data is extracted and transferred out of an organization's network without authorization, often for malicious purposes such as financial gain or espionage. This can happen through various means, including phishing emails, compromised systems, or unsecured networks.
-- What impact: The impact of data exfiltration can be severe, causing significant financial loss, damage to reputation, and compromise of sensitive information. In some cases, it may even lead to legal consequences for organizations that fail to protect their data.
-- How to mitigate: To mitigate the risk of data exfiltration, organizations should implement robust security controls, such as encryption, access controls, and network segmentation. They should also conduct regular vulnerability assessments and penetration testing to identify weaknesses and implement effective incident response plans.
+1. Unauthorized Access
+- What this means: Unauthorized access occurs when an individual or entity gains access to a system, network, or data without proper authorization, which can result from weak passwords, unpatched vulnerabilities, or social engineering tactics.
+- What impact: The impact of unauthorized access can be significant, leading to data breaches, intellectual property theft, financial loss, and reputational damage. In extreme cases, it can also compromise national security or cause physical harm.
+- How to mitigate: To mitigate the risk of unauthorized access, organizations should implement strong authentication controls, conduct regular vulnerability assessments and penetration testing, provide employee training on cybersecurity best practices, and maintain up-to-date software and firmware.
 
-2. System Compromise
-- What this means: A system compromise occurs when an attacker gains unauthorized access to a computer or network, allowing them to steal sensitive information, disrupt operations, or install malware.
-- What impact: The impact of a system compromise can be severe, including financial loss, damage to reputation, and compromising confidentiality, integrity, and availability of sensitive data.
-- How to mitigate: To mitigate the risk of a system compromise, it is essential to implement robust security measures such as multi-factor authentication, regular software updates, and intrusion detection systems, as well as educating users on safe computing practices.
+2. Data Breach Risk
+- What this means: A data breach risk occurs when sensitive or confidential information is accessed, disclosed, modified, or destroyed without authorization. This can happen through various means such as hacking, phishing, or physical theft.
+- What impact: If a data breach occurs, it can result in significant financial losses, damage to reputation, and legal liabilities. Additionally, it may also lead to loss of customer trust and loyalty, ultimately affecting business operations and revenue.
+- How to mitigate: To mitigate the risk of a data breach, organizations should implement robust security measures such as encryption, access controls, and regular software updates. They should also educate employees on safe computing practices and conduct regular security audits to identify vulnerabilities.
 
-3. Network Access
-- What this means: The risk of unauthorized network access occurs when an individual gains access to a computer system or network without proper authorization, potentially leading to data breaches and intellectual property theft.
-- What impact: Unauthorized network access can result in significant financial losses, damage to reputation, and legal consequences. It can also compromise sensitive information and disrupt business operations.
-- How to mitigate: To mitigate this risk, ensure that all network connections are secure, use strong passwords and keep them confidential, regularly update software and operating systems, and implement strict access controls.
+3. System Compromise Threat
+- What this means: A System Compromise Threat refers to an unauthorized access or compromise of a computer system, network, or device. This can occur through various means such as phishing, malware, or physical theft.
+- What impact: The impact of a System Compromise Threat can be severe, including loss of sensitive data, disruption of critical systems, and potential harm to individuals or organizations. The compromised system may also be used as a launching pad for further attacks or espionage.
+- How to mitigate: To mitigate the risk of a System Compromise Threat, it is essential to implement robust security measures such as strong authentication, encryption, and regular software updates. Additionally, conducting frequent vulnerability assessments and penetration testing can help identify and address potential weaknesses before they are exploited.
 
-4. Lateral Movement
-- What this means: Lateral movement refers to an attacker's ability to move across a network or system without being detected, often using stolen credentials or exploiting vulnerabilities. This can allow them to access sensitive data and systems.
-- What impact: If left unchecked, lateral movement can lead to significant damage to an organization's security posture, including data breaches, system compromise, and intellectual property theft.
-- How to mitigate: To mitigate the risk of lateral movement, organizations should implement robust access controls, monitor network traffic for suspicious activity, and conduct regular vulnerability assessments and penetration testing.
+4. Reputation Damage Concern
+- What this means: A sudden and unexpected crisis could occur, causing a significant loss of public trust and damaging our reputation.
+- What impact: This could lead to a decline in customer loyalty, revenue, and ultimately, profitability. It may also impact our ability to attract new customers and talent.
+- How to mitigate: To minimize the risk, we must be prepared for any situation that could arise and have a crisis management plan in place. This includes staying informed about potential issues and being proactive in addressing them.
 
-5. Reputation Damage
-- What this means: Reputation damage refers to harm caused to an organization's public image or brand reputation. This can occur through negative publicity, customer complaints, or poor business practices.
-- What impact: Reputation damage can have significant financial and social impacts, including lost sales, decreased employee morale, and erosion of trust among stakeholders.
-- How to mitigate: To mitigate reputation damage, organizations should establish a crisis communication plan, respond promptly to incidents, and implement measures to prevent future harm.
+5. Malware Infection Alert
+- What this means: A malware infection occurs when a malicious program is installed on your computer or device without your knowledge or consent. This can happen through various means such as opening a compromised email attachment, clicking on a link from an untrusted source, or using an infected USB drive.
+- What impact: Malware infections can have significant impacts on your digital life, including data theft, system crashes, and loss of productivity. In severe cases, malware can also be used to launch attacks against other devices or networks.
+- How to mitigate: To mitigate the risk of a malware infection, it is essential to practice safe computing habits such as regularly updating software and operating systems, using strong passwords and enabling two-factor authentication, and being cautious when opening attachments or clicking on links from unknown sources.

@@ -30,7 +30,7 @@ from typing import Any, Dict, List
 GROUP_SUMMARIES = Path("data/group_summaries.jsonl")
 TXT_OUT         = Path("data/top5_takeaways.txt")
 HTML_OUT        = Path("data/top5_takeaways.html")
-MODEL_TAG       = sys.argv[1] if len(sys.argv) > 1 else "openllama:3.1-8b"
+MODEL_TAG       = sys.argv[1] if len(sys.argv) > 1 else "llama3:8b"
 RETRY_DELAY_S   = 2          # seconds to wait between retries
 
 # ---------------------------------------------------------------------------

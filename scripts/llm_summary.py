@@ -14,7 +14,7 @@ from typing import Any, Dict, List
 
 INPUT_FILE = "data/nested_grouped_matches.json"
 OUTPUT_FILE = "data/group_summaries.jsonl"
-DEFAULT_MODEL = "openllama:3.1-8b"  # override with argv[1]
+DEFAULT_MODEL = "llama3:8b"  # override with argv[1]
 
 
 def format_prompt(tactic: str, technique: str, host_user: str, entries: List[Dict[str, Any]]) -> str:

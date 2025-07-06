@@ -2,6 +2,10 @@
 
 import subprocess
 import sys
+import time
+import psutil
+import GPUtil
+import json
 
 steps = [
     {
@@ -27,14 +31,46 @@ steps = [
     {
         "name": "Nest Grouped Matches",
         "script": "scripts/nest_grouped_matches.py"
+    },
+    {
+        "name": "LLM Group Summarisation",
+        "script": "scripts/llm_summary.py"
+    },
+    {
+        "name": "Executive-Level Takeaways",
+        "script": "scripts/llm_summary_overall.py"
     }
 ]
+
+def log_resource_usage(step_name, duration_sec):
+    try:
+        ram = psutil.virtual_memory()
+        cpu = psutil.cpu_percent(interval=0.5)
+        gpus = GPUtil.getGPUs()
+        gpu_mem = sum(g.memoryUsed for g in gpus) if gpus else 0
+
+        metrics = {
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "step": step_name,
+            "duration_sec": round(duration_sec, 2),
+            "ram_used_mb": round(ram.used / (1024 * 1024), 2),
+            "cpu_percent": round(cpu, 2),
+            "gpu_memory_mb": round(gpu_mem, 2)
+        }
+
+        with open("data/step_metrics.jsonl", "a", encoding="utf-8") as f:
+            f.write(json.dumps(metrics) + "\n")
+    except Exception as e:
+        print(f"[!] Failed to record metrics for {step_name}: {e}")
 
 def run_step(step, auto_run=False):
     if auto_run:
         print(f"\n[*] Running step: {step['name']}")
         try:
+            start = time.perf_counter()
             subprocess.run([sys.executable, step["script"]], check=True)
+            end = time.perf_counter()
+            log_resource_usage(step["name"], end - start)
         except subprocess.CalledProcessError as e:
             print(f"[!] Error in step: {step['name']}")
             print(e)
@@ -46,7 +82,10 @@ def run_step(step, auto_run=False):
         if choice == "Y":
             print(f"[>] Running: {step['script']}")
             try:
+                start = time.perf_counter()
                 subprocess.run([sys.executable, step["script"]], check=True)
+                end = time.perf_counter()
+                log_resource_usage(step["name"], end - start)
             except subprocess.CalledProcessError as e:
                 print(f"[!] Error in step: {step['name']}")
                 print(e)

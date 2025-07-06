@@ -1,4 +1,15 @@
-﻿pyyaml
+﻿# Core packages
+pyyaml
 faiss-cpu
 sentence-transformers
 toml
+
+# System and metrics tracking
+psutil
+gputil
+
+# Used by Ollama integration and subprocess handling
+pip
+
+# Optional: for type hints and modern tooling
+typing-extensions
