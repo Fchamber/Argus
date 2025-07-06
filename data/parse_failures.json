@@ -1,0 +1,230 @@
+[
+  {
+    "file": "data/raw_rules/elastic/rules\\apm\\apm_sqlmap_user_agent.toml",
+    "error": "Unterminated string found. Reached end of file. (line 71 column 1 char 4897)"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\collection_cloudtrail_logging_created.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\defense_evasion_cloudtrail_logging_deleted.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\defense_evasion_elasticache_security_group_creation.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\defense_evasion_rds_instance_restored.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\defense_evasion_s3_bucket_configuration_deletion.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\defense_evasion_s3_bucket_lifecycle_expiration_added.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\defense_evasion_waf_acl_deletion.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\exfiltration_ec2_full_network_packet_capture_detected.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\exfiltration_rds_snapshot_export.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\impact_ec2_disable_ebs_encryption.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\impact_efs_filesystem_or_mount_deleted.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\impact_iam_deactivate_mfa_device.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\impact_rds_group_deletion.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\impact_rds_instance_cluster_stoppage.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\persistence_ec2_route_table_modified_or_deleted.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\persistence_ec2_security_group_configuration_change_detection.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\persistence_rds_cluster_creation.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\persistence_redshift_instance_creation.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\persistence_route_table_created.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\aws\\privilege_escalation_sts_getsessiontoken_abuse.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\azure\\credential_access_key_vault_modified.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\azure\\defense_evasion_azure_application_credential_modification.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\azure\\defense_evasion_azure_diagnostic_settings_deletion.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\azure\\defense_evasion_firewall_policy_deletion.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\azure\\defense_evasion_network_watcher_deletion.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\azure\\discovery_blob_container_access_mod.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\azure\\impact_resource_group_deletion.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\azure\\initial_access_azure_active_directory_powershell_signin.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\azure\\initial_access_external_guest_user_invite.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\azure\\persistence_azure_pim_user_added_global_admin.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\azure\\persistence_entra_service_principal_created.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\gcp\\collection_gcp_pub_sub_topic_creation.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\gcp\\defense_evasion_gcp_pub_sub_topic_deletion.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\gcp\\impact_gcp_iam_role_deletion.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\gcp\\impact_gcp_storage_bucket_deleted.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\gcp\\persistence_gcp_iam_service_account_key_deletion.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\integrations\\kubernetes\\initial_access_anonymous_request_authorized.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\linux\\lateral_movement_telnet_network_activity_external.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\linux\\lateral_movement_telnet_network_activity_internal.toml",
+    "error": "string index out of range"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\windows\\credential_access_posh_veeam_sql.toml",
+    "error": "Found invalid character in key name: ','. Try quoting the key name. (line 53 column 102 char 4752)"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\windows\\defense_evasion_amsi_bypass_powershell.toml",
+    "error": "Unterminated string found. Reached end of file. (line 176 column 1 char 7815)"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\windows\\defense_evasion_posh_obfuscation_backtick.toml",
+    "error": "Unterminated string found. Reached end of file. (line 108 column 1 char 3685)"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\windows\\defense_evasion_posh_obfuscation_backtick_var.toml",
+    "error": "Unterminated string found. Reached end of file. (line 105 column 1 char 3352)"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\windows\\defense_evasion_posh_obfuscation_char_arrays.toml",
+    "error": "Unterminated string found. Reached end of file. (line 107 column 1 char 3583)"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\windows\\defense_evasion_posh_obfuscation_concat_dynamic.toml",
+    "error": "Unbalanced quotes (line 55 column 153 char 1904)"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\windows\\defense_evasion_posh_obfuscation_high_number_proportion.toml",
+    "error": "Unterminated string found. Reached end of file. (line 112 column 1 char 3665)"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\windows\\defense_evasion_posh_obfuscation_iex_env_vars_reconstruction.toml",
+    "error": "Unterminated string found. Reached end of file. (line 105 column 1 char 3496)"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\windows\\defense_evasion_posh_obfuscation_iex_string_reconstruction.toml",
+    "error": "Unterminated string found. Reached end of file. (line 106 column 1 char 3600)"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\windows\\defense_evasion_posh_obfuscation_index_reversal.toml",
+    "error": "Unterminated string found. Reached end of file. (line 109 column 1 char 3535)"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\windows\\defense_evasion_posh_obfuscation_reverse_keyword.toml",
+    "error": "Unterminated string found. Reached end of file. (line 105 column 1 char 3635)"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\windows\\defense_evasion_posh_obfuscation_string_concat.toml",
+    "error": "Unbalanced quotes (line 58 column 145 char 1948)"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\windows\\defense_evasion_posh_obfuscation_string_format.toml",
+    "error": "Unterminated string found. Reached end of file. (line 120 column 1 char 3905)"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\windows\\defense_evasion_posh_obfuscation_whitespace_special_proportion.toml",
+    "error": "Unterminated string found. Reached end of file. (line 111 column 1 char 3776)"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\windows\\discovery_command_system_account.toml",
+    "error": "Unterminated string found. Reached end of file. (line 127 column 1 char 6307)"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\windows\\execution_windows_powershell_susp_args.toml",
+    "error": "Unterminated string found. Reached end of file. (line 163 column 1 char 7808)"
+  },
+  {
+    "file": "data/raw_rules/elastic/rules\\windows\\persistence_dontexpirepasswd_account.toml",
+    "error": "Found tokens after a closed string. Invalid TOML. (line 57 column 1 char 3682)"
+  }
+]

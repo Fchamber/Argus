@@ -1,0 +1,12 @@
+FROM openllama:3.1-8b
+
+# GPU tuning for RTX 4070 Ti Super (16GB VRAM)
+PARAMETER gpu_layers 100
+PARAMETER num_ctx 4096
+PARAMETER num_batch 64
+PARAMETER f16_kv true
+PARAMETER low_vram false
+PARAMETER numa false
+PARAMETER use_mlock true
+PARAMETER use_mmap true
+PARAMETER embedding true

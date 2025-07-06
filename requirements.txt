@@ -1,0 +1,4 @@
+﻿pyyaml
+faiss-cpu
+sentence-transformers
+toml
