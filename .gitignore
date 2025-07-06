@@ -1,0 +1,11 @@
+cat > .gitignore <<EOF
+__pycache__/
+*.pyc
+*.log
+*.pkl
+*.bin
+*.jsonl
+.env
+data/
+!.gitkeep
+EOF
